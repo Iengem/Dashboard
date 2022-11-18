@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.page{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(25,32,48);
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    padding-top: 30px;
+    width: 300px;
+}
+.info{
+    height: 180vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    background-color: rgb(245,247,251);
+}
+.board{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+}
+.board h1{
+    font-weight: 500;
+    font-size: 20px;
+}
+.board img{
+    width: 25px;
+    height: 25px;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    gap:2px;
+}
+.logo p{
+color:rgb(120,123,130);
+    font-size: 13px;
+    text-align: center;
+    border-bottom: 1px solid;
+    padding-bottom: 20px;
+    border-color: rgb(124, 133, 151);
+}
+.logo h4{
+    position: relative;
+    top: -12px;
+    left: 180px;
+    background-color: rgb(25,32,48);
+    width: 120px;
+    font-weight: 600;
+    font-size: 13px;
+color:rgb(120,123,130);
+    padding-left: 15px;
+}
+.mainmenu h1{
+    font-size: 13px;
+    font-weight: 600;
+    text-align: left;
+    padding-left: 30px;
+color:rgb(120,123,130);
+}
+.material-symbols-outlined {
+    color: rgb(120,123,130);
+  font-variation-settings:
+  'FILL' 100,
+  'wght' 100,
+  'GRAD' -25,
+  'opsz' 48
+}
+.mainmenu{
+    display: flex;
+    flex-direction: column;
+}
+.menuitems{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-left:30px;
+    height: 42.3px;
+}
+.menuitems:hover, .helpitems:hover{
+    background-color: rgb(72,77,89);
+}
+.menuitems h2, .helpitems h2{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px 0px;
+color:rgb(120,123,130);
+}
+.help{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.helpitems{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-left:30px;
+    height: 40px;
+}
+.help h1{
+    font-size: 17px;
+    font-weight: 600;
+    text-align: left;
+    padding-left: 30px;
+    color:rgb(120,123,130);
+    margin: 10px;
+}
+.topbar{
+    display: flex;
+    padding-top:25px;
+    gap: 10px;
+    background-color: white;
+    width: 100%;
+    padding-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.congrat{
+    display: flex;
+    align-items: center;
+}
+.congrat img{
+    width: 28px;
+    height: 28px;
+    position: relative;
+    top: 3px;
+}
+.congrat h1{
+    color: rgb(77,79,86);
+    font-size: 25px;
+}
+.bar{
+    display: flex;
+    border-right: 2px solid rgb(216, 218, 224);
+    padding-right: 30px;
+    margin-left: 150px;
+}
+.bar img{
+    position: relative;
+    left: 30px;
+    top: 7.5px;
+    height: 25px;
+    width: 20px;
+}
+.bar input{
+    width: 250px;
+    height: 40px;
+    padding-left: 40px;
+    outline: none;
+    color: black;
+    font-weight: 500;
+    border-radius: 10px;
+    border:1px solid rgb(216, 218, 224); 
+}
+.bi-chat-square-dots{
+    color: rgb(216, 218, 224);
+    font-size: 25px;
+    font-weight: 600;
+}
+.bi-bell{
+    color:rgb(180,180,180);
+    font-size: 25px;
+}
+.messages{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.ali{
+    display: flex;
+    align-items: center;
+}
+.ali h3{
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(25,32,48);
+}
+.cardsec{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 900px;
+    gap: 30px;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+    width: 220px;
+}
+.topic{
+    display: flex;
+    gap: 20px;
+}
+.topic img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.cards h2{
+    color: rgb(180,181,183);
+    font-size: 16px;
+    font-weight: 500;
+}
+.cards h3{
+    color: rgb(81, 81, 85);
+    font-size: 27px;
+}
+.top{
+    border-left: 4px solid rgb(101,111,196);
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height: fit-content;
+}
+.bi-arrow-down{
+    color: rgb(233, 99, 99);
+}
+.bi-arrow-up{
+    color: rgb(125,177,153);
+}
+.bottom{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+span{
+    color: rgb(125,177,153);
+    font-size: 14px;
+}
+.bottom p{
+    color: rgb(125,177,153);
+    font-size: 14px;
+}
+.charts{
+    display: flex;
+    gap:10px;
+}
+.chart1{
+    height: fit-content;
+    padding-left: 10px;
+    border-radius: 10px;
+    width:350px;
+    background-color: white;
+}
+.chart2{
+    height: fit-content;
+    padding-left: 10px;
+    border-radius: 10px;
+    width:600px;
+    background-color: white;
+}
+.requiem{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: 65vh;
+    border-radius: 10px;
+    padding: 40px;
+    padding-right: 0px;
+}
+.topreq{
+    display: flex;
+    gap: 600px;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.rightreq{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.topreq h1{
+    color: rgb(185,187,190);
+    font-size: 18px;
+    font-weight: 500;
+}
+.ppl{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    height: 100%;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.ppl p{
+    color: rgb(185,187,190);
+    font-weight: 600;
+    font-size: 14px;
+}
+.pic{
+    display: flex;
+    align-items: center;
+}
